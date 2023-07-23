@@ -1,0 +1,81 @@
+.footer{
+    &__content{
+       margin-top: 115px;
+        width: 1440px;
+        height: 462px;
+        
+    }
+    &__information{
+        display: flex;
+       gap: 230px;
+        align-items: start;
+        margin-bottom: 120px;
+    }
+    &__title{
+        @include font ( 400, 28px, $black );
+        margin-bottom: 29px;
+    }
+    &__text{
+        width: 293px;
+        height: 72px;
+        @include font (400, 15px, $black);
+    
+    }
+    &__subtitle{
+
+        @include font (400, 17px, $orange);
+        margin-bottom: 20px;
+
+    }
+    &__subtext1{
+        @include font (400, 15px, $black);
+        margin-bottom: 16px;
+        svg {
+            width: 10px;
+            height: 20px;
+            margin-right: 8px;
+           
+            
+        }
+    }
+    &__subtext2{
+        @include font (400, 15px, $black);
+        margin-bottom: 16px;
+        svg {
+            width: 10px;
+            height: 20px;
+            margin-right: 8px;
+            
+            
+        }
+    }
+    &__subtext3{
+        @include font (400, 15px, $black);
+        svg {
+            width: 10px;
+            height: 20px;
+            margin-right: 8px;
+           
+            
+        }
+        
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+    &__label1{
+        @include font (400, 15px, $black);
+    }
+    &__label2{
+        @include font (400, 15px, $black);
+       
+        
+    }
+    &__label3{
+        @include font (400, 15px, $black);
+    }
+    
+}

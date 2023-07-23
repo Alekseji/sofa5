@@ -1,0 +1,12 @@
+.footer__content {
+  margin-top: 115px;
+  width: 1440px;
+  height: 462px;
+}
+.footer__information {
+  display: flex;
+  margin-bottom: 120px;
+}
+.footer__title {
+  @in;
+}/*# sourceMappingURL=footer.css.map */
